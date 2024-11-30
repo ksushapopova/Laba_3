@@ -17,6 +17,7 @@ public class ListPerformanceTest
         for(int i=0; i < TEST_SIZE; i++){
             list.add(i);
         }
+
         long endTime = System.nanoTime();
         long addTime = endTime - startTime;
 

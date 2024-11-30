@@ -32,6 +32,7 @@ public class ListPerformanceTestTest {
         long endTime = System.nanoTime();
         long addTime = endTime - startTime;
 
+
         assertEquals(TEST_SIZE, list.size(), "Size of the list after adding elements should be equal to TEST_SIZE");
 
         startTime = System.nanoTime();
